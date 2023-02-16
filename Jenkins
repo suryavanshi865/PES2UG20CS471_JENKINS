@@ -3,13 +3,13 @@ agent any
 stages {
     stage('Build') {
         steps {
-            sh 'g++ -o pes2ug20cs504-1 hello.cpp'
+            sh 'g++ -o pes2ug20cs471 hello.cpp'
         }
     }
     
     stage('Test') {
         steps {
-            sh './pes2ug20cs504-1'
+            sh './pes2ug20cs471'
         }
     }
     
